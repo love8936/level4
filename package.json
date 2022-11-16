@@ -1,0 +1,33 @@
+{
+  "name": "wd201_level4_milestone",
+  "version": "1.0.0",
+  "description": "Milestone project for WD201 (level 4)",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamsn97/wd201_level4_milestone.git"
+  },
+  "author": "shivamsn97@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamsn97/wd201_level4_milestone/issues"
+  },
+  "homepage": "https://github.com/shivamsn97/wd201_level4_milestone#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "husky": "^8.0.1",
+    "jest": "^29.2.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  }
+}
